@@ -1,3 +1,4 @@
+// not Node.js lol just a node object
 function Node(val, x, y) {
   this.value = val;
   this.left = null;
