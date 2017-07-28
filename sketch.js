@@ -10,6 +10,10 @@ function setup() {
     tree.addValue(floor(random(0,100)));
   }
 
+  console.log('tree object');
   console.log(tree);
+  console.log(' ')
+  console.log('sorted numbers');
   tree.traverse();
+
 }
